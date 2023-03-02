@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+//using git
 #define MAX 7
 
 int intArray[MAX] = {4,6,3,2,1,9,7};
@@ -72,7 +72,9 @@ void quickSort(int left, int right) {
    }        
 }
 
-int main() {
+int main() 
+{
+   printf("Hello World");
    printf("Input Array: ");
    display();
    printline(50);
